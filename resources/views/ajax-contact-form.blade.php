@@ -25,27 +25,27 @@
                     <div id="one-form">
                         <div class="form-group">
                             <label for="exampleInputEmail1">First Name</label>
-                            <input type="text" id="first_name" name="person[0][first_name]" class="form-control">
+                            <input type="text" id="first_name" name="first_name" class="form-control">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Last Name</label>
-                            <input type="text" id="last_name" name="person[0][last_name]" class="form-control">
+                            <input type="text" id="last_name" name="last_name" class="form-control">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email</label>
-                            <input type="email" id="email" name="person[0][email]" class="form-control">
+                            <input type="email" id="email" name="email" class="form-control">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Subject</label>
-                            <input type="text" id="subject" name="person[0][subject]" class="form-control">
+                            <input type="text" id="subject" name="subject" class="form-control">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Description</label>
-                            <textarea id="description" name="person[0][description]" class="form-control"></textarea>
+                            <textarea id="description" name="description" class="form-control"></textarea>
                         </div>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Date</label>
-                            <input type="date" id="date" name="person[0][date]" class="form-control">
+                            <input type="date" id="date" name="date" class="form-control">
                         </div>
                     </div>
                 </div>
@@ -71,27 +71,27 @@
                 $('#all-forms').append('<div id="one-form">'
                     +'<div class="form-group">'
                     +	'<label for="exampleInputEmail1">First Name</label>'
-                    +	'<input type="text" id="first_name" name="person['+i+'][first_name]" class="form-control">'
+                    +	'<input type="text" id="first_name" name="first_name" class="form-control">'
                     +'</div>'
                     +'<div class="form-group">'
                     +	'<label for="exampleInputEmail1">Last Name</label>'
-                    +	'<input type="text" id="last_name" name="person['+i+'][last_name]" class="form-control">'
+                    +	'<input type="text" id="last_name" name="last_name" class="form-control">'
                     +'</div>'
                     +'<div class="form-group">'
                     +	'<label for="exampleInputEmail1">Email</label>'
-                    +	'<input type="email" id="email" name="person['+i+'][email]" class="form-control">'
+                    +	'<input type="email" id="email" name="email" class="form-control">'
                     +'</div>'
                     +'<div class="form-group">'
                     +	'<label for="exampleInputEmail1">Subject</label>'
-                    +	'<input type="text" id="subject" name="person['+i+'][subject]" class="form-control">'
+                    +	'<input type="text" id="subject" name="subject" class="form-control">'
                     +'</div>'
                     +'<div class="form-group">'
                     +	'<label for="exampleInputEmail1">Description</label>'
-                    +	'<textarea id="description" name="person['+i+'][description]" class="form-control"></textarea>'
+                    +	'<textarea id="description" name="description" class="form-control"></textarea>'
                     +'</div>'
                     +'<div class="form-group">'
                     +	'<label for="exampleInputEmail1">Date</label>'
-                    +	'<input type="date" id="date" name="person['+i+'][date]" class="form-control">'
+                    +	'<input type="date" id="date" name="date" class="form-control">'
                     +'</div>'
                     +'</div>');
 
